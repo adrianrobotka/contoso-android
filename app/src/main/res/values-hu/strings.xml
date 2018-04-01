@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menuRegistration">Regisztráció</string>
+    <string name="registration">Regisztráció</string>
+    <string name="firstName">Keresztnév</string>
+    <string name="lastName">Vezetéknév</string>
+    <string name="email">Email</string>
+    <string name="birth">Születési dátum</string>
+    <string name="company">Cég neve</string>
+    <string name="jobTitle">Beosztás</string>
+    <string name="registrationContinue">Tovább</string>
+    <string name="eulaText">A  \"Tovább\" gombra kattintva ön elfogadja a <a href="#">EULA</a>-t.</string>
+
+    <string name="contosoDescription">Üdvözöljük a Contoso Fesztivál regisztrációs applikációjában! A fesztiválunk arcfelismerő beléptető rendszerrel működik, ezért a regisztrációhoz személyes információin kívül 3 darab önarcképet is szükséges biztosítania a belépéshez.</string>
+
+    <string name="withoutInternet">Nem regisztrálhatsz internet nélkül!</string>
+    <string name="noInternet">Ellenőrizd az internet kapcsolatod!</string>
+
+    <string name="invalidName">Csak alfanumerikus karaktereket használj, legalább hármat!</string>
+    <string name="invalidEmail">Hibás e-mail cím</string>
+    <string name="registeredEmail">Ez az e-mail cím már regisztrálva van!</string>
+    <string name="invalidBirth">Csak múltbéli dátumot választhat!</string>
+    <string name="invalidCompany">Csak alfanumerikus karaktereket használj, legalább hármat!</string>
+    <string name="invalidJobTitle">Csak alfanumerikus karaktereket használj, legalább hármat!</string>
+
+    <string name="choosePicture">Válassz fényképet</string>
+    <string name="takePicture">Készíts fényképet</string>
+    <string name="takePictureDescription">Kérjük, töltsön fel 3 arcképet önmagáról! Ezek alapján történik majd a beléptetés a rendezvény helyszínén. Ajánlott, hogy minden kép amit feltölt legyen valamilyen módon eltérő a többitől hogy a felismerés egyszerűbb és gyorsabb folyamat lehessen az Ön számára.</string>
+    <string name="confirmButton">Megerősítés</string>
+    <string name="confirmBackButton">Vissza</string>
+
+    <string name="oneMorePicture">Legalább egy képet meg kell adnod magadról</string>
+
+    <string name="gatewayContinue">Tovább</string>
+
+    <string name="gatewayDescription">A regisztráció befejezéséhez meg kell adnia néhány képet magáról. Ez alapján fogjuk azonosítani Önt a rendezvényen. Ajánlott különböző képeket megadni, az alaposabb elemzés segít nekünk beazonosítani téged a rendezvényen.</string>
+    <string name="registrationFailed">Sikertelen regisztráció. Próbálja újra később.</string>
+    <string name="registrationSuccessful">Köszönjük a Regisztrációját! Sikeresen felvettük az ismert arcok közé az adatbázisunkban.</string>
+
+    <string name="goToTheMenu">Vissza a menübe</string>
+    <string name="detecting">Elemzés...</string>
+    <string name="detectionFailed">Sikertelen elemzés</string>
+    <string name="faceDetectionFailed">Sikertelen arcfelismerés</string>
+    <string name="noFacesDetected">Nem találtunk arcot. Kérlek próbáld meg egy másik képpel.</string>
+    <string name="oneFaceAllowed">Egy arc megengedett egy képen! Kérlek válassz másik képet..</string>
+
+    <string name="selectPicture">Kép választása</string>
+    <string name="photosSelected">képek kiválasztva</string>
+    <string name="registrationWithDots">Regisztráció...</string>
+
+</resources>

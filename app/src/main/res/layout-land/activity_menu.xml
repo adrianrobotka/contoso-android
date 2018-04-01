@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/contoso_logo" />
+
+            <TextView
+                android:id="@+id/eulaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:autoLink="web"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                android:text="@string/contosoDescription"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <Button
+                android:id="@+id/menuRegistrationButton"
+                android:layout_width="@dimen/menu_button_width"
+                android:layout_height="@dimen/menu_button_height"
+                android:layout_gravity="center"
+                android:background="@drawable/round_button"
+                android:text="@string/menuRegistration"
+                android:textColor="@color/roundButtonTextColor" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

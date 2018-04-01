@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center_horizontal"
+                android:text="@string/registration"
+                android:textColor="@color/registrationTitleTextColor"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/registerFirstNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/registerEditTextBottomMargin"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:drawableLeft="@mipmap/account"
+                android:ems="10"
+                android:hint="@string/firstName"
+                android:inputType="textPersonName"
+                android:textColor="@color/registrationTextColor"
+                android:textColorHint="@color/registrationHintColor" />
+
+            <EditText
+                android:id="@+id/registerLastNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/registerEditTextBottomMargin"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:drawableLeft="@mipmap/account"
+                android:ems="10"
+                android:hint="@string/lastName"
+                android:inputType="textPersonName"
+                android:textColor="@color/registrationTextColor"
+                android:textColorHint="@color/registrationHintColor" />
+
+            <EditText
+                android:id="@+id/registerEmailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/registerEditTextBottomMargin"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:drawableLeft="@mipmap/email"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/registrationTextColor"
+                android:textColorHint="@color/registrationHintColor" />
+
+            <EditText
+                android:id="@+id/registerBirthEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/registerEditTextBottomMargin"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:drawableLeft="@mipmap/date"
+                android:editable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="@string/birth"
+                android:inputType="date"
+                android:textColor="@color/registrationTextColor"
+                android:textColorHint="@color/registrationHintColor" />
+
+            <EditText
+                android:id="@+id/registerCompanyEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/registerEditTextBottomMargin"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:drawableLeft="@mipmap/company"
+                android:ems="10"
+                android:hint="@string/company"
+                android:inputType="text"
+                android:textColor="@color/registrationTextColor"
+                android:textColorHint="@color/registrationHintColor" />
+
+            <EditText
+                android:id="@+id/registerJobTitleEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/registerEditTextBottomMargin"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:drawableLeft="@mipmap/title"
+                android:ems="10"
+                android:hint="@string/jobTitle"
+                android:inputType="text"
+                android:textColor="@color/registrationTextColor"
+                android:textColorHint="@color/registrationHintColor" />
+
+            <TextView
+                android:id="@+id/eulaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:gravity="center"
+                android:padding="20px"
+                android:text="@string/eulaText"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/appTextColor" />
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+                android:text="@string/registrationContinue"
+                android:textColor="@color/roundButtonTextColor"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

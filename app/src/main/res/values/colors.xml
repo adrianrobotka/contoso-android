@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundColor">#3F51B5</color>
+    <color name="roundButtonTextColor">#bcffffff</color>
+    <color name="registrationTitleTextColor">#e1ffffff</color>
+    <color name="registrationTextColor">#bcffffff</color>
+    <color name="registrationEditTextBackgroundColor">#78000000</color>
+    <color name="registrationHintColor">#d9ffffff</color>
+    <color name="appTextColor">#aaffffff</color>
+</resources>

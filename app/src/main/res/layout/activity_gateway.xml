@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".GatewayActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eulaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:autoLink="web"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:gravity="center"
+                android:padding="30px"
+                android:text="@string/gatewayDescription"
+                android:textColor="@color/appTextColor"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:paddingBottom="30px"
+                android:paddingTop="30px"
+                android:text="1/2 photos selected"
+                android:textColor="@color/appTextColor"
+                android:textSize="28dp" />
+
+            <LinearLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <Button
+                    android:id="@+id/choosePictureButton"
+                    android:layout_width="@dimen/menu_button_width"
+                    android:layout_height="@dimen/menu_button_height"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/round_button"
+                    android:text="@string/choosePicture"
+                    android:textColor="@color/roundButtonTextColor" />
+
+                <Button
+                    android:id="@+id/takePictureButton"
+                    android:layout_width="@dimen/menu_button_width"
+                    android:layout_height="@dimen/menu_button_height"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/round_button"
+                    android:text="@string/takePicture"
+                    android:textColor="@color/roundButtonTextColor" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/background" />
+
+    <LinearLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/pictureImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="20dp"
+                android:src="@drawable/background"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/confirmStatusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:autoLink="web"
+                android:background="@color/registrationEditTextBackgroundColor"
+                android:gravity="center"
+                android:padding="20px"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/appTextColor"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/confirmButton"
+                android:layout_width="140dp"
+                android:layout_height="@dimen/menu_button_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_button"
+                android:text="@string/confirmButton"
+                android:textColor="@color/roundButtonTextColor"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/confirmBackButton"
+                android:layout_width="140dp"
+                android:layout_height="@dimen/menu_button_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="@string/confirmBackButton"
+                android:textColor="@color/roundButtonTextColor" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

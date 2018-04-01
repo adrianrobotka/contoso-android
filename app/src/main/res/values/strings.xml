@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">Contoso</string>
+
+    <string name="menuRegistration">Register</string>
+
+    <string name="registration">Registration</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="email">Email</string>
+    <string name="birth">Date of birth</string>
+    <string name="company">Company</string>
+    <string name="jobTitle">Job title</string>
+    <string name="registrationContinue">Continue</string>
+    <string name="eulaText">By clicking on \"Continue\" below, you are agreeing the <a href="#">EULA</a>.</string>
+
+    <string name="contosoDescription">Welcome to the registration application of Contoso Festival! Our festival has decided to use facial recognitition technology to authorize incoming guests. You will be required to provide some personal information as well as pictures of yourself to enter the festival.</string>
+
+    <string name="withoutInternet">Cannot register without internet</string>
+    <string name="noInternet">Check your internet connection</string>
+
+    <string name="invalidName">Do not use punctuates and type 3 characters</string>
+    <string name="invalidEmail">Invalid email address</string>
+    <string name="registeredEmail">Email address is already registered</string>
+    <string name="invalidBirth">You have not born yet</string>
+    <string name="invalidCompany">Must be alphanumeric and least 3 characters</string>
+    <string name="invalidJobTitle">Must be alphanumeric and least 3 characters</string>
+
+    <string name="choosePicture">Choose picture</string>
+    <string name="takePicture">Take picture</string>
+    <string name="takePictureDescription">Please upload 3 pictures of yourself to finalize your registration. You will be authorized by these pictures as you enter the event. Every picture that you upload should differ from the others in some way to ensure easy recognition.</string>
+    <string name="confirmButton">Confirm</string>
+    <string name="confirmBackButton">Back</string>
+
+    <string name="oneMorePicture">You need to provide at least one photo about you.</string>
+
+    <string name="gatewayContinue">Continue</string>
+
+    <string name="gatewayDescription">To finalize your registration, you should provide some pictures about yourself. This will authorise you on the event. It\'s recommended to provide a bit different photos about you, to enchant face identify result that will authorize you on the event.</string>
+
+    <string name="registrationFailed">Registration failed. Please try again later.</string>
+    <string name="registrationSuccessful">Thank you for Registering! We successfully added you to our list of known faces.</string>
+
+    <string name="goToTheMenu">Go to the menu</string>
+    <string name="detecting">Detecting...</string>
+    <string name="detectionFailed">Detection failed</string>
+    <string name="faceDetectionFailed">Face detection failed</string>
+    <string name="noFacesDetected">No faces detected. Try again with an other picture.</string>
+    <string name="oneFaceAllowed">One face is allowed in the picture. Try again with an other picture.</string>
+
+    <string name="selectPicture">Select Picture</string>
+    <string name="photosSelected">photos selected</string>
+    <string name="registrationWithDots">Registration...</string>
+
+</resources>
